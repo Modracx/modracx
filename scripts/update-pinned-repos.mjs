@@ -79,7 +79,7 @@ function renderRepos(items) {
 
   for (let index = 0; index < items.length; index += 2) {
     const left = renderCell(items[index]);
-    const right = items[index + 1] ? renderCell(items[index + 1]) : '    <td valign="top" width="50%"></td>';
+    const right = items[index + 1] ? renderCell(items[index + 1]) : '    <td width="50%"></td>';
     rows.push(`  <tr>\n${left}\n${right}\n  </tr>`);
   }
 
@@ -87,50 +87,14 @@ function renderRepos(items) {
 }
 
 function renderCell(repo) {
-  const language = repo.primaryLanguage?.name;
-  const languageBadge = language ? `${badge(language, "", languageLogo(language))}\n        ` : "";
-  const starsBadge = badge("stars", repo.stargazerCount, "github", `Stars ${repo.stargazerCount}`);
-  const liveLink = repo.homepageUrl ? ` · <a href="${escapeHtml(repo.homepageUrl)}">Live</a>` : "";
+  const repoName = encodeURIComponent(repo.name);
+  const cardUrl = `https://github-readme-stats.shion.dev/api/pin/?username=${USERNAME}&repo=${repoName}&bg_color=0d1117&title_color=c8860a&text_color=c9d1d9&icon_color=c8860a&border_color=30363d&border_radius=8`;
 
-  return `    <td valign="top" width="50%">
-      <h3><a href="${escapeHtml(repo.url)}">${escapeHtml(repo.name)}</a></h3>
-      <p>${escapeHtml(cleanDescription(repo.description))}</p>
-      <p>
-        ${languageBadge}${starsBadge}
-        <a href="${escapeHtml(repo.url)}">Repository</a>${liveLink}
-      </p>
+  return `    <td width="50%">
+      <a href="${escapeHtml(repo.url)}">
+        <img width="100%" alt="${escapeHtml(repo.name)} repository card" src="${cardUrl}"/>
+      </a>
     </td>`;
-}
-
-function badge(label, message = "", logo = "", alt = label) {
-  const safeLabel = encodeBadgePart(label);
-  const safeMessage = encodeBadgePart(message);
-  const text = safeMessage ? `${safeLabel}-${safeMessage}` : safeLabel;
-  const logoPart = logo ? `&logo=${encodeURIComponent(logo)}` : "";
-
-  return `<img alt="${escapeHtml(alt)}" src="https://img.shields.io/badge/${text}-0d1117?style=flat-square${logoPart}&logoColor=c8860a"/>`;
-}
-
-function languageLogo(language) {
-  const logos = {
-    JavaScript: "javascript",
-    TypeScript: "typescript",
-    PHP: "php",
-    Vue: "vue.js",
-    HTML: "html5",
-    CSS: "css3",
-  };
-
-  return logos[language] ?? "";
-}
-
-function cleanDescription(description) {
-  if (!description) {
-    return "Pinned repository from my GitHub profile.";
-  }
-
-  const trimmed = description.replace(/\s+/g, " ").trim();
-  return trimmed.length > 160 ? `${trimmed.slice(0, 157).trim()}...` : trimmed;
 }
 
 function escapeHtml(value) {
@@ -143,8 +107,4 @@ function escapeHtml(value) {
 
 function escapeRegExp(value) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-}
-
-function encodeBadgePart(value) {
-  return String(value).replaceAll("-", "--").replaceAll(" ", "%20");
 }
