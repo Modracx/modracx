@@ -87,14 +87,41 @@ function renderRepos(items) {
 }
 
 function renderCell(repo) {
-  const language = repo.primaryLanguage?.name ? `<code>${escapeHtml(repo.primaryLanguage.name)}</code> · ` : "";
+  const language = repo.primaryLanguage?.name;
+  const languageBadge = language ? `${badge(language, "", languageLogo(language))}\n        ` : "";
+  const starsBadge = badge("stars", repo.stargazerCount, "github", `Stars ${repo.stargazerCount}`);
   const liveLink = repo.homepageUrl ? ` · <a href="${escapeHtml(repo.homepageUrl)}">Live</a>` : "";
 
   return `    <td valign="top" width="50%">
       <h3><a href="${escapeHtml(repo.url)}">${escapeHtml(repo.name)}</a></h3>
       <p>${escapeHtml(cleanDescription(repo.description))}</p>
-      <p>${language}<a href="${escapeHtml(repo.url)}">Repository</a>${liveLink}</p>
+      <p>
+        ${languageBadge}${starsBadge}
+        <a href="${escapeHtml(repo.url)}">Repository</a>${liveLink}
+      </p>
     </td>`;
+}
+
+function badge(label, message = "", logo = "", alt = label) {
+  const safeLabel = encodeBadgePart(label);
+  const safeMessage = encodeBadgePart(message);
+  const text = safeMessage ? `${safeLabel}-${safeMessage}` : safeLabel;
+  const logoPart = logo ? `&logo=${encodeURIComponent(logo)}` : "";
+
+  return `<img alt="${escapeHtml(alt)}" src="https://img.shields.io/badge/${text}-0d1117?style=flat-square${logoPart}&logoColor=c8860a"/>`;
+}
+
+function languageLogo(language) {
+  const logos = {
+    JavaScript: "javascript",
+    TypeScript: "typescript",
+    PHP: "php",
+    Vue: "vue.js",
+    HTML: "html5",
+    CSS: "css3",
+  };
+
+  return logos[language] ?? "";
 }
 
 function cleanDescription(description) {
@@ -116,4 +143,8 @@ function escapeHtml(value) {
 
 function escapeRegExp(value) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function encodeBadgePart(value) {
+  return String(value).replaceAll("-", "--").replaceAll(" ", "%20");
 }
