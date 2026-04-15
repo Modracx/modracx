@@ -79,7 +79,7 @@ function renderRepos(items) {
 
   for (let index = 0; index < items.length; index += 2) {
     const left = renderCell(items[index]);
-    const right = items[index + 1] ? renderCell(items[index + 1]) : '    <td width="50%"></td>';
+    const right = items[index + 1] ? renderCell(items[index + 1]) : '    <td valign="top" width="50%"></td>';
     rows.push(`  <tr>\n${left}\n${right}\n  </tr>`);
   }
 
@@ -87,14 +87,23 @@ function renderRepos(items) {
 }
 
 function renderCell(repo) {
-  const repoName = encodeURIComponent(repo.name);
-  const cardUrl = `https://github-readme-stats.shion.dev/api/pin/?username=${USERNAME}&repo=${repoName}&bg_color=0d1117&title_color=c8860a&text_color=c9d1d9&icon_color=c8860a&border_color=30363d&border_radius=8`;
+  const language = repo.primaryLanguage?.name ? `<code>${escapeHtml(repo.primaryLanguage.name)}</code> · ` : "";
+  const liveLink = repo.homepageUrl ? ` · <a href="${escapeHtml(repo.homepageUrl)}">Live</a>` : "";
 
-  return `    <td width="50%">
-      <a href="${escapeHtml(repo.url)}">
-        <img width="100%" alt="${escapeHtml(repo.name)} repository card" src="${cardUrl}"/>
-      </a>
+  return `    <td valign="top" width="50%">
+      <h3><a href="${escapeHtml(repo.url)}">${escapeHtml(repo.name)}</a></h3>
+      <p>${escapeHtml(cleanDescription(repo.description))}</p>
+      <p>${language}<a href="${escapeHtml(repo.url)}">Repository</a>${liveLink}</p>
     </td>`;
+}
+
+function cleanDescription(description) {
+  if (!description) {
+    return "Pinned repository from my GitHub profile.";
+  }
+
+  const trimmed = description.replace(/\s+/g, " ").trim();
+  return trimmed.length > 160 ? `${trimmed.slice(0, 157).trim()}...` : trimmed;
 }
 
 function escapeHtml(value) {
