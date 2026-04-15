@@ -1,8 +1,8 @@
-<img width="100%" alt="Kenneth D'Silva - Modracx" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:1f2937,100:c8860a&height=230&section=header&text=Kenneth%20D%27Silva&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=42&fontFamily=Bebas+Neue&desc=Modracx%20%20%7C%20%20Full-Stack%20Developer&descAlignY=64&descSize=16&descColor=ffd966"/>
+<img width="100%" alt="Kenneth D'Silva - Modracx" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,42:1f2937,100:c8860a&height=240&section=header&text=Kenneth%20D%27Silva&fontSize=64&fontColor=ffffff&animation=twinkling&fontAlignY=40&fontFamily=Bebas+Neue&desc=Modracx%20%20%7C%20%20Full-Stack%20Developer&descAlignY=63&descSize=16&descColor=ffd966"/>
 
 <div align="center">
 
-<img alt="Practical software, clean interfaces, maintainable systems" src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=2600&pause=900&color=C8860A&center=true&vCenter=true&width=780&lines=Practical+software+for+real+workflows;Clean+interfaces+for+complex+operations;Maintainable+full-stack+systems"/>
+<img alt="Practical software, clean interfaces, maintainable systems" src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=23&duration=2600&pause=900&color=C8860A&center=true&vCenter=true&width=820&lines=Practical+software+for+real+workflows;Clean+interfaces+for+complex+operations;Maintainable+full-stack+systems"/>
 
 I build database tools, inventory workflows, dashboards, and browser-based utilities with a preference for simple setup, clear data flows, and interfaces that make operational work easier.
 
@@ -11,6 +11,10 @@ I build database tools, inventory workflows, dashboards, and browser-based utili
 <a href="https://modracx.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=githubpages&logoColor=c8860a&labelColor=0d1117"/></a>
 <a href="https://linkedin.com/in/kenneth-dsilva-kd"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=c8860a&labelColor=0d1117"/></a>
 <a href="https://github.com/Modracx"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=c8860a&labelColor=0d1117"/></a>
+
+<br/><br/>
+
+<img alt="Profile views" src="https://komarev.com/ghpvc/?username=Modracx&style=flat-square&color=c8860a&labelColor=0d1117&label=Profile%20views"/>
 
 </div>
 
@@ -98,8 +102,17 @@ I build database tools, inventory workflows, dashboards, and browser-based utili
 ## Metrics
 
 <p align="center">
+  <img width="95%" alt="GitHub profile summary for Modracx" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Modracx&theme=github_dark"/>
+</p>
+
+<p align="center">
   <img height="170" alt="GitHub stats for Modracx" src="https://github-readme-stats.shion.dev/api?username=Modracx&bg_color=0d1117&title_color=c8860a&text_color=c9d1d9&icon_color=c8860a&border_color=30363d&hide_border=false&include_all_commits=true&count_private=true"/>
   <img height="170" alt="Top languages for Modracx" src="https://github-readme-stats.shion.dev/api/top-langs/?username=Modracx&bg_color=0d1117&title_color=c8860a&text_color=c9d1d9&border_color=30363d&hide_border=false&layout=compact"/>
+</p>
+
+<p align="center">
+  <img height="170" alt="Most used languages by repo for Modracx" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Modracx&theme=github_dark"/>
+  <img height="170" alt="Most committed languages for Modracx" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Modracx&theme=github_dark"/>
 </p>
 
 <p align="center">
@@ -110,8 +123,4 @@ I build database tools, inventory workflows, dashboards, and browser-based utili
   <img width="95%" alt="GitHub activity graph for Modracx" src="https://github-readme-activity-graph.vercel.app/graph?username=Modracx&bg_color=0d1117&color=c9d1d9&line=c8860a&point=ffd966&area=true&area_color=c8860a&hide_border=false&border_color=30363d"/>
 </p>
 
-<p align="center">
-  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=Modracx&style=flat-square&color=c8860a&labelColor=0d1117&label=Profile%20views"/>
-</p>
-
-<img width="100%" alt="Footer wave" src="https://capsule-render.vercel.app/api?type=waving&color=0:c8860a,45:1f2937,100:0d1117&height=120&section=footer"/>
+<img width="100%" alt="Footer wave" src="https://capsule-render.vercel.app/api?type=waving&color=0:c8860a,48:1f2937,100:0d1117&height=125&section=footer"/>
