@@ -16,6 +16,18 @@ I build database tools, inventory workflows, dashboards, and browser-based utili
 
 <img alt="Profile views" src="https://komarev.com/ghpvc/?username=Modracx&style=flat-square&color=c8860a&labelColor=0d1117&label=Profile%20views"/>
 
+<div align="center">
+  <a href="#engineering-profile"><img alt="Product-minded engineering" src="https://img.shields.io/badge/Focus-Workflow%20Automation-0d1117?style=for-the-badge&logo=github&logoColor=c8860a&labelColor=0d1117"/></a>
+  <a href="#what-i-build"><img alt="Design-first systems" src="https://img.shields.io/badge/Style-Clean%20Admin%20UX-0d1117?style=for-the-badge&logo=visual-studio-code&logoColor=c8860a&labelColor=0d1117"/></a>
+  <a href="#contact"><img alt="Open to collaboration" src="https://img.shields.io/badge/Contact-Open%20for%20collaboration-0d1117?style=for-the-badge&logo=linkedin&logoColor=c8860a&labelColor=0d1117"/></a>
+</div>
+
+<div align="center" style="margin-top: 16px;">
+  <img alt="Design-first" src="https://img.shields.io/badge/Design-first%20%26%20usable-0d1117?style=for-the-badge&logo=figma&logoColor=c8860a&labelColor=0d1117"/>
+  <img alt="Remote-friendly" src="https://img.shields.io/badge/Remote-friendly-Remote%20first-0d1117?style=for-the-badge&logo=github&logoColor=c8860a&labelColor=0d1117"/>
+  <img alt="Open to collaboration" src="https://img.shields.io/badge/Ready-to%20build-Launch%20projects-0d1117?style=for-the-badge&logo=rocket&logoColor=c8860a&labelColor=0d1117"/>
+</div>
+
 </div>
 
 ---
@@ -55,6 +67,23 @@ I build database tools, inventory workflows, dashboards, and browser-based utili
   <img alt="Lumen" src="https://img.shields.io/badge/Lumen-0d1117?style=for-the-badge&logo=laravel&logoColor=c8860a"/>
   <br/><br/>
   <img alt="MySQL, Git, GitHub, VS Code, Tailwind CSS, Figma" src="https://skillicons.dev/icons?i=mysql,git,github,vscode,tailwind,figma&perline=6&theme=dark"/>
+</div>
+
+## What I Build
+
+<div align="center">
+  <table>
+    <tr>
+      <td valign="top" width="25%"><strong>Operational dashboards</strong><br/>Fast, structured views for teams that need immediate answers.</td>
+      <td valign="top" width="25%"><strong>Inventory workflows</strong><br/>Import, track, and operate stock with clear data flow and low friction.</td>
+      <td valign="top" width="25%"><strong>Browser utilities</strong><br/>Small tools and extensions that make admin work faster and less error prone.</td>
+      <td valign="top" width="25%"><strong>Backend APIs</strong><br/>Lightweight PHP/Lumen services with predictable data contracts.</td>
+    </tr>
+  </table>
+</div>
+
+<div align="center" style="margin-top: 16px;">
+  <img alt="Featured" src="https://img.shields.io/badge/Featured-Design%20+%20Data%20%2B%20Speed-0d1117?style=for-the-badge&logo=appveyor&logoColor=c8860a&labelColor=0d1117"/>
 </div>
 
 ## Pinned Work
@@ -106,6 +135,14 @@ I build database tools, inventory workflows, dashboards, and browser-based utili
     <td valign="top" width="25%"><strong>Polish Matters</strong><br/>Treat setup, naming, empty states, and errors as product work.</td>
   </tr>
 </table>
+
+## Contact
+
+<div align="center">
+  <a href="https://modracx.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-Visit%20site-0d1117?style=for-the-badge&logo=githubpages&logoColor=c8860a&labelColor=0d1117"/></a>
+  <a href="https://linkedin.com/in/kenneth-dsilva-kd"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Message%20me-0d1117?style=for-the-badge&logo=linkedin&logoColor=c8860a&labelColor=0d1117"/></a>
+  <a href="https://github.com/Modracx"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-Explore%20projects-0d1117?style=for-the-badge&logo=github&logoColor=c8860a&labelColor=0d1117"/></a>
+</div>
 
 ## Metrics
 
