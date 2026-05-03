@@ -1,0 +1,23 @@
+.codex
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.idea/
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+
+# Node dependencies
+node_modules/
