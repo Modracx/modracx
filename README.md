@@ -169,15 +169,8 @@ I build database tools, inventory workflows, dashboards, and browser-based utili
   <img width="95%" alt="GitHub activity graph for Modracx" src="https://github-readme-activity-graph.vercel.app/graph?username=Modracx&bg_color=0d1117&color=c9d1d9&line=c8860a&point=ffd966&area=true&area_color=c8860a&hide_border=false&border_color=30363d"/>
 </p>
 
-## Cartoon Episode & Charts
-
 <p align="center">
-  <img alt="Animated ASCII cartoon episode" src="./assets/cartoon.svg" width="760" />
-</p>
-
-<p align="center">
-  <img alt="Animated monthly signups chart" src="./assets/graph1.svg" width="420" />
-  <img alt="Animated daily active users chart" src="./assets/graph2.svg" width="420" />
+  <img alt="Animated orbit scene" src="./assets/orbit-two-minds.gif" width="760" />
 </p>
 
 <img width="100%" alt="Footer wave" src="https://capsule-render.vercel.app/api?type=waving&color=0:c8860a,48:1f2937,100:0d1117&height=125&section=footer"/>
