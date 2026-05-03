@@ -16,17 +16,17 @@ I build database tools, inventory workflows, dashboards, and browser-based utili
 
 <img alt="Profile views" src="https://komarev.com/ghpvc/?username=Modracx&style=flat-square&color=c8860a&labelColor=0d1117&label=Profile%20views"/>
 
-<div align="center">
-  <a href="#engineering-profile"><img alt="Product-minded engineering" src="https://img.shields.io/badge/Focus-Workflow%20Automation-0d1117?style=for-the-badge&logo=github&logoColor=c8860a&labelColor=0d1117"/></a>
-  <a href="#what-i-build"><img alt="Design-first systems" src="https://img.shields.io/badge/Style-Clean%20Admin%20UX-0d1117?style=for-the-badge&logo=visual-studio-code&logoColor=c8860a&labelColor=0d1117"/></a>
-  <a href="#contact"><img alt="Open to collaboration" src="https://img.shields.io/badge/Contact-Open%20for%20collaboration-0d1117?style=for-the-badge&logo=linkedin&logoColor=c8860a&labelColor=0d1117"/></a>
-</div>
+<br/><br/>
 
-<div align="center" style="margin-top: 16px;">
-  ![Design-first](https://img.shields.io/badge/Design-first%20%26%20usable-0d1117?style=for-the-badge&logo=figma&logoColor=c8860a&labelColor=0d1117)
-  ![Remote-friendly](https://img.shields.io/badge/Remote-friendly-Remote%20first-0d1117?style=for-the-badge&logo=github&logoColor=c8860a&labelColor=0d1117)
-  ![Ready-to-build](https://img.shields.io/badge/Ready-to%20build-Launch%20projects-0d1117?style=for-the-badge&logo=rocket&logoColor=c8860a&labelColor=0d1117)
-</div>
+<a href="#engineering-profile"><img alt="Product-minded engineering" src="https://img.shields.io/badge/Focus-Workflow%20Automation-0d1117?style=for-the-badge&logo=github&logoColor=c8860a&labelColor=0d1117"/></a>
+<a href="#what-i-build"><img alt="Design-first systems" src="https://img.shields.io/badge/Style-Clean%20Admin%20UX-0d1117?style=for-the-badge&logo=visualstudiocode&logoColor=c8860a&labelColor=0d1117"/></a>
+<a href="#contact"><img alt="Open to collaboration" src="https://img.shields.io/badge/Contact-Open%20for%20collaboration-0d1117?style=for-the-badge&logo=linkedin&logoColor=c8860a&labelColor=0d1117"/></a>
+
+<br/><br/>
+
+<img alt="Design-first and usable" src="https://img.shields.io/static/v1?label=Design-first&message=%26%20usable&style=for-the-badge&logo=figma&logoColor=c8860a&labelColor=0d1117&color=0d1117"/>
+<img alt="Remote-friendly" src="https://img.shields.io/static/v1?label=Remote-friendly&message=Remote%20first&style=for-the-badge&logo=github&logoColor=c8860a&labelColor=0d1117&color=0d1117"/>
+<img alt="Ready to build" src="https://img.shields.io/static/v1?label=Ready-to-build&message=Launch%20projects&style=for-the-badge&labelColor=0d1117&color=0d1117"/>
 
 </div>
 
@@ -61,9 +61,9 @@ I build database tools, inventory workflows, dashboards, and browser-based utili
 
 <div align="center">
   <img alt="PHP" src="https://img.shields.io/badge/PHP-0d1117?style=for-the-badge&logo=php&logoColor=c8860a"/>
-  <img alt="Vue.js" src="https://img.shields.io/badge/Vue.js-0d1117?style=for-the-badge&logo=vue.js&logoColor=c8860a"/>
+  <img alt="Vue.js" src="https://img.shields.io/badge/Vue.js-0d1117?style=for-the-badge&logo=vuedotjs&logoColor=c8860a"/>
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=c8860a"/>
-  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-0d1117?style=for-the-badge&logo=next.js&logoColor=c8860a"/>
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-0d1117?style=for-the-badge&logo=nextdotjs&logoColor=c8860a"/>
   <img alt="Lumen" src="https://img.shields.io/badge/Lumen-0d1117?style=for-the-badge&logo=laravel&logoColor=c8860a"/>
   <br/><br/>
   <img alt="MySQL, Git, GitHub, VS Code, Tailwind CSS, Figma" src="https://skillicons.dev/icons?i=mysql,git,github,vscode,tailwind,figma&perline=6&theme=dark"/>
@@ -82,8 +82,9 @@ I build database tools, inventory workflows, dashboards, and browser-based utili
   </table>
 </div>
 
-<div align="center" style="margin-top: 16px;">
-  <img alt="Featured" src="https://img.shields.io/badge/Featured-Design%20+%20Data%20%2B%20Speed-0d1117?style=for-the-badge&logo=appveyor&logoColor=c8860a&labelColor=0d1117"/>
+<div align="center">
+  <br/>
+  <img alt="Featured" src="https://img.shields.io/badge/Featured-Design%20%2B%20Data%20%2B%20Speed-0d1117?style=for-the-badge&labelColor=0d1117&color=0d1117"/>
 </div>
 
 ## Pinned Work
@@ -168,30 +169,15 @@ I build database tools, inventory workflows, dashboards, and browser-based utili
   <img width="95%" alt="GitHub activity graph for Modracx" src="https://github-readme-activity-graph.vercel.app/graph?username=Modracx&bg_color=0d1117&color=c9d1d9&line=c8860a&point=ffd966&area=true&area_color=c8860a&hide_border=false&border_color=30363d"/>
 </p>
 
-
-
-## GitHub-friendly animation
+## Cartoon Episode & Charts
 
 <p align="center">
-  <img alt="Hero animation" src="./assets/hero.svg" width="720" />
-</p>
-
-<p align="center">A single, polished SVG optimized for GitHub: smooth easing, subtle parallax, and clear contrast for readability. This file uses lightweight SMIL animations that render on GitHub's static pages.</p>
-
-<!-- keep footer below -->
-
-
-
-## Cartoon episode & graphs
-
-<p align="center">
-  <img alt="Cartoon episode" src="./assets/cartoon.svg" width="760" />
+  <img alt="Animated ASCII cartoon episode" src="./assets/cartoon.svg" width="760" />
 </p>
 
 <p align="center">
-  <img alt="Graph 1" src="./assets/graph1.svg" width="420" style="margin-right:18px;" />
-  <img alt="Graph 2" src="./assets/graph2.svg" width="420" />
+  <img alt="Animated monthly signups chart" src="./assets/graph1.svg" width="420" />
+  <img alt="Animated daily active users chart" src="./assets/graph2.svg" width="420" />
 </p>
 
 <img width="100%" alt="Footer wave" src="https://capsule-render.vercel.app/api?type=waving&color=0:c8860a,48:1f2937,100:0d1117&height=125&section=footer"/>
-

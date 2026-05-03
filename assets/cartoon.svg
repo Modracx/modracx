@@ -1,47 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="800" height="240" role="img" aria-label="Cartoon episode">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 820 270" width="820" height="270" role="img" aria-label="Animated ASCII cartoon episode">
   <style>
-    .panel{fill:#0d1117;stroke:#c9d1d9;stroke-width:1.5;rx:8}
-    .bg{fill:#0f1720}
-    .text{fill:#ffd966;font-family:Inter,Arial,sans-serif}
+    .bg { fill: #071021; }
+    .panel { fill: #0d1117; stroke: #30363d; stroke-width: 1.5; }
+    .title { fill: #ffd966; font: 700 14px monospace; }
+    .ascii { fill: #c9d1d9; font: 13px monospace; white-space: pre; }
+    .caption { fill: #8b949e; font: 12px monospace; }
   </style>
-  <rect width="100%" height="100%" fill="#071021"/>
 
-  <!-- four panels side by side -->
-  <g id="p1" transform="translate(12,20)" opacity="0">
-    <rect x="0" y="0" width="188" height="188" rx="10" fill="#071021" stroke="#2b3340"/>
-    <!-- character A -->
-    <circle cx="48" cy="72" r="20" fill="#ffd966"/>
-    <rect x="38" y="92" width="20" height="30" rx="6" fill="#ffffff"/>
-    <text x="90" y="65" class="text" font-size="14">Hey, remember 90s cartoons?</text>
+  <rect class="bg" width="820" height="270" rx="12"/>
+
+  <g id="frame1" opacity="1">
+    <rect class="panel" x="20" y="20" width="780" height="210" rx="10"/>
+    <text class="title" x="38" y="45">EP. 01 - Launch Prep</text>
+    <text class="ascii" x="40" y="76" xml:space="preserve">+--------------------------------------------------------------------------------------+
+|   O                                                                                  |
+|  /|\   "Need a tool that works."                                                     |
+|  / \                                                                                  |
+|                                                                                      |
+|       ___________                                                                    |
+|      | workflow  |   [ clear data ]   [ simple setup ]                               |
+|      | first     |                                                                  |
+|      |___________|                                                                  |
+|                                                                                      |
+|  Cue: quiet keyboard noises and a slightly overconfident launch checklist.           |
++--------------------------------------------------------------------------------------+</text>
   </g>
 
-  <g id="p2" transform="translate(206,20)" opacity="0">
-    <rect x="0" y="0" width="188" height="188" rx="10" fill="#071021" stroke="#2b3340"/>
-    <!-- character B -->
-    <circle cx="48" cy="72" r="20" fill="#ff7b00"/>
-    <rect x="38" y="92" width="20" height="30" rx="6" fill="#ffffff"/>
-    <text x="90" y="65" class="text" font-size="14">Yeah—full of beeps, boops, and overacting!</text>
+  <g id="frame2" opacity="0">
+    <rect class="panel" x="20" y="20" width="780" height="210" rx="10"/>
+    <text class="title" x="38" y="45">EP. 02 - Build Check</text>
+    <text class="ascii" x="40" y="76" xml:space="preserve">+--------------------------------------------------------------------------------------+
+|   O                                                                         O        |
+|  /|\   "Keep it readable."                                                /|\       |
+|  / \                                                                      / \       |
+|                                                                                      |
+|     [ UI ] ----> [ API ] ----> [ DB ]                                                |
+|      clean         clear         reliable                                              |
+|                                                                                      |
+|     Status lights:   [OK] [OK] [OK]                                                   |
+|                                                                                      |
+|  Nobody is impressed by abstraction until the bug report arrives.                    |
++--------------------------------------------------------------------------------------+</text>
   </g>
 
-  <g id="p3" transform="translate(400,20)" opacity="0">
-    <rect x="0" y="0" width="188" height="188" rx="10" fill="#071021" stroke="#2b3340"/>
-    <!-- action -->
-    <rect x="18" y="40" width="152" height="100" rx="6" fill="#0d1117" stroke="#2b3340"/>
-    <text x="36" y="100" class="text" font-size="22">WHOOSH!</text>
+  <g id="frame3" opacity="0">
+    <rect class="panel" x="20" y="20" width="780" height="210" rx="10"/>
+    <text class="title" x="38" y="45">EP. 03 - Small Panic</text>
+    <text class="ascii" x="40" y="76" xml:space="preserve">+--------------------------------------------------------------------------------------+
+|   O                                                                                  |
+|  /|\      >>> WHOOSH >>>                                                             |
+|  / \                                                                                  |
+|                                                                                      |
+|       config.js     logs.txt     cache.tmp                                            |
+|            \           |           /                                                  |
+|             \__________|__________/                                                   |
+|                                                                                      |
+|       "That moved fast."                                                             |
+|                                                                                      |
+|  Moral check pending. Prop check also pending.                                       |
++--------------------------------------------------------------------------------------+</text>
   </g>
 
-  <g id="p4" transform="translate(594,20)" opacity="0">
-    <rect x="0" y="0" width="188" height="188" rx="10" fill="#071021" stroke="#2b3340"/>
-    <text x="24" y="90" class="text" font-size="16">And the moral: Always check your props before launch.</text>
+  <g id="frame4" opacity="0">
+    <rect class="panel" x="20" y="20" width="780" height="210" rx="10"/>
+    <text class="title" x="38" y="45">EP. 04 - Clean Finish</text>
+    <text class="ascii" x="40" y="76" xml:space="preserve">+--------------------------------------------------------------------------------------+
+|   O                                                                         O        |
+|  /|\   "Good. Ship it."                                                     /|\       |
+|  / \                                                                        / \       |
+|                                                                                      |
+|      [ workflow first ]  [ fewer moving parts ]  [ polish matters ]                  |
+|                                                                                      |
+|      release.zip          docs.md              README.md                               |
+|         ready              cleaner               readable                              |
+|                                                                                      |
+|  End credits: maintained systems age better than dramatic rewrites.                  |
++--------------------------------------------------------------------------------------+</text>
   </g>
 
-  <!-- animate panels sequentially -->
-  <animate xlink:href="#p1" attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.35;1" dur="12s" repeatCount="indefinite"/>
-  <animate xlink:href="#p2" attributeName="opacity" values="0;0;1;0" keyTimes="0;0.25;0.5;1" dur="12s" repeatCount="indefinite"/>
-  <animate xlink:href="#p3" attributeName="opacity" values="0;0;0;1" keyTimes="0;0.5;0.75;1" dur="12s" repeatCount="indefinite"/>
-  <animate xlink:href="#p4" attributeName="opacity" values="0;0;0;1;0" keyTimes="0;0.75;0.9;0.99;1" dur="12s" repeatCount="indefinite"/>
+  <animate xlink:href="#frame1" attributeName="opacity" values="1;1;0;0;0;1" keyTimes="0;0.20;0.25;0.75;1;1" dur="16s" repeatCount="indefinite"/>
+  <animate xlink:href="#frame2" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.23;0.28;0.48;0.53;1" dur="16s" repeatCount="indefinite"/>
+  <animate xlink:href="#frame3" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.48;0.53;0.73;0.78;1" dur="16s" repeatCount="indefinite"/>
+  <animate xlink:href="#frame4" attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.73;0.78;0.98;1" dur="16s" repeatCount="indefinite"/>
 
-  <!-- small caption -->
-  <text x="20" y="226" fill="#c9d1d9" font-family="Inter,Arial" font-size="12">A tiny cartoon episode — looped SMIL animation friendly to GitHub.</text>
+  <text class="caption" x="24" y="252">Animated ASCII episode in a single GitHub-safe SVG.</text>
 </svg>
