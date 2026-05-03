@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60" width="320" height="120" role="img" aria-label="Bouncing ball animation">
+  <rect width="100%" height="100%" fill="transparent"/>
+  <g transform="translate(20,10)">
+    <rect x="0" y="32" width="120" height="6" rx="3" fill="#30363d" opacity="0.5"/>
+    <circle cx="16" cy="16" r="6" fill="#ffd966">
+      <animate attributeName="cx" values="16;40;72;104;72;40;16" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="16;6;12;6;16;28;16" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

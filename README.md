@@ -23,9 +23,9 @@ I build database tools, inventory workflows, dashboards, and browser-based utili
 </div>
 
 <div align="center" style="margin-top: 16px;">
-  <img alt="Design-first" src="https://img.shields.io/badge/Design-first%20%26%20usable-0d1117?style=for-the-badge&logo=figma&logoColor=c8860a&labelColor=0d1117"/>
-  <img alt="Remote-friendly" src="https://img.shields.io/badge/Remote-friendly-Remote%20first-0d1117?style=for-the-badge&logo=github&logoColor=c8860a&labelColor=0d1117"/>
-  <img alt="Open to collaboration" src="https://img.shields.io/badge/Ready-to%20build-Launch%20projects-0d1117?style=for-the-badge&logo=rocket&logoColor=c8860a&labelColor=0d1117"/>
+  ![Design-first](https://img.shields.io/badge/Design-first%20%26%20usable-0d1117?style=for-the-badge&logo=figma&logoColor=c8860a&labelColor=0d1117)
+  ![Remote-friendly](https://img.shields.io/badge/Remote-friendly-Remote%20first-0d1117?style=for-the-badge&logo=github&logoColor=c8860a&labelColor=0d1117)
+  ![Ready-to-build](https://img.shields.io/badge/Ready-to%20build-Launch%20projects-0d1117?style=for-the-badge&logo=rocket&logoColor=c8860a&labelColor=0d1117)
 </div>
 
 </div>
@@ -168,4 +168,17 @@ I build database tools, inventory workflows, dashboards, and browser-based utili
   <img width="95%" alt="GitHub activity graph for Modracx" src="https://github-readme-activity-graph.vercel.app/graph?username=Modracx&bg_color=0d1117&color=c9d1d9&line=c8860a&point=ffd966&area=true&area_color=c8860a&hide_border=false&border_color=30363d"/>
 </p>
 
+
+
+## GitHub-friendly animation
+
+<p align="center">
+  <img alt="Hero animation" src="./assets/hero.svg" width="720" />
+</p>
+
+<p align="center">A single, polished SVG optimized for GitHub: smooth easing, subtle parallax, and clear contrast for readability. This file uses lightweight SMIL animations that render on GitHub's static pages.</p>
+
+<!-- keep footer below -->
+
 <img width="100%" alt="Footer wave" src="https://capsule-render.vercel.app/api?type=waving&color=0:c8860a,48:1f2937,100:0d1117&height=125&section=footer"/>
+
