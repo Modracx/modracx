@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 160" width="420" height="160" role="img" aria-label="Line graph">
+  <rect width="100%" height="100%" fill="#071021"/>
+  <g transform="translate(20,20)">
+    <text x="0" y="0" fill="#ffd966" font-family="Inter" font-size="14">Daily active users</text>
+  </g>
+  <g transform="translate(20,40)" fill="none" stroke="#63b3ed" stroke-width="3" stroke-linejoin="round">
+    <polyline points="0,80 60,56 120,68 180,44 240,52 300,36">
+      <animate attributeName="points" dur="3s" repeatCount="indefinite"
+        values="0,80 60,56 120,68 180,44 240,52 300,36; 0,80 60,68 120,56 180,44 240,64 300,40; 0,80 60,56 120,68 180,44 240,52 300,36"/>
+    </polyline>
+  </g>
+</svg>
