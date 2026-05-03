@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 160" width="420" height="160" role="img" aria-label="Bar graph">
+  <rect width="100%" height="100%" fill="#071021"/>
+  <g transform="translate(20,20)" fill="#c9d1d9">
+    <text x="0" y="0" fill="#ffd966" font-family="Inter" font-size="14">Monthly signups</text>
+  </g>
+  <g transform="translate(20,40)">
+    <rect x="0" y="80" width="36" height="0" fill="#ff7b00">
+      <animate attributeName="height" values="0;28" dur="1s" begin="0.2s" fill="freeze"/>
+      <animate attributeName="y" values="80;52" dur="1s" begin="0.2s" fill="freeze"/>
+    </rect>
+    <rect x="60" y="80" width="36" height="0" fill="#ffd966">
+      <animate attributeName="height" values="0;48" dur="1s" begin="0.4s" fill="freeze"/>
+      <animate attributeName="y" values="80;32" dur="1s" begin="0.4s" fill="freeze"/>
+    </rect>
+    <rect x="120" y="80" width="36" height="0" fill="#c9d1d9">
+      <animate attributeName="height" values="0;64" dur="1s" begin="0.6s" fill="freeze"/>
+      <animate attributeName="y" values="80;16" dur="1s" begin="0.6s" fill="freeze"/>
+    </rect>
+    <rect x="180" y="80" width="36" height="0" fill="#a0aec0">
+      <animate attributeName="height" values="0;40" dur="1s" begin="0.8s" fill="freeze"/>
+      <animate attributeName="y" values="80;40" dur="1s" begin="0.8s" fill="freeze"/>
+    </rect>
+    <rect x="240" y="80" width="36" height="0" fill="#63b3ed">
+      <animate attributeName="height" values="0;56" dur="1s" begin="1s" fill="freeze"/>
+      <animate attributeName="y" values="80;24" dur="1s" begin="1s" fill="freeze"/>
+    </rect>
+    <g fill="#c9d1d9" font-family="Inter" font-size="10">
+      <text x="6" y="96">Jan</text>
+      <text x="66" y="96">Feb</text>
+      <text x="126" y="96">Mar</text>
+      <text x="186" y="96">Apr</text>
+      <text x="246" y="96">May</text>
+    </g>
+  </g>
+</svg>

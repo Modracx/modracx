@@ -180,5 +180,18 @@ I build database tools, inventory workflows, dashboards, and browser-based utili
 
 <!-- keep footer below -->
 
+
+
+## Cartoon episode & graphs
+
+<p align="center">
+  <img alt="Cartoon episode" src="./assets/cartoon.svg" width="760" />
+</p>
+
+<p align="center">
+  <img alt="Graph 1" src="./assets/graph1.svg" width="420" style="margin-right:18px;" />
+  <img alt="Graph 2" src="./assets/graph2.svg" width="420" />
+</p>
+
 <img width="100%" alt="Footer wave" src="https://capsule-render.vercel.app/api?type=waving&color=0:c8860a,48:1f2937,100:0d1117&height=125&section=footer"/>
 
