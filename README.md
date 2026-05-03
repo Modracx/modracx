@@ -173,4 +173,10 @@ I build database tools, inventory workflows, dashboards, and browser-based utili
   <img alt="Animated orbit scene" src="./assets/orbit-two-minds.gif" width="760" />
 </p>
 
+<p align="center"><em>The Orbit of Two Minds</em></p>
+
+<p align="center">
+  An original five-shot story about mapping the unknown, hearing signal through noise, and discovering that the best work is never finished.
+</p>
+
 <img width="100%" alt="Footer wave" src="https://capsule-render.vercel.app/api?type=waving&color=0:c8860a,48:1f2937,100:0d1117&height=125&section=footer"/>
