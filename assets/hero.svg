@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="800" height="360" role="img" aria-label="Hero animation">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f1720"/>
+      <stop offset="60%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#071021"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd966" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#ff7b00" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#ff7b00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="100%" height="100%" fill="url(#sky)" />
+
+  <!-- subtle moving gradient for depth -->
+  <g opacity="0.08">
+    <rect width="800" height="360" fill="url(#glow)">
+      <animate attributeName="x" values="-200;200;-200" dur="12s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <!-- stars layer -->
+  <g fill="#ffd966" opacity="0.85">
+    <circle cx="60" cy="40" r="1.6">
+      <animate attributeName="opacity" values="0.2;0.95;0.2" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="210" cy="24" r="1.2">
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="360" cy="56" r="1.1">
+      <animate attributeName="opacity" values="0.1;0.85;0.1" dur="5.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="540" cy="30" r="1.4">
+      <animate attributeName="opacity" values="0.25;0.95;0.25" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="48" r="1.3">
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="4.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ground silhouette -->
+  <g transform="translate(0,300)">
+    <path d="M0 40 L800 40 L800 60 L0 60 Z" fill="#071021" opacity="0.9"/>
+    <path d="M0 32 C120 8 240 48 360 28 C480 8 600 48 720 28 C800 16 800 32 800 32 L800 40 L0 40 Z" fill="#0b1320" opacity="0.6" />
+  </g>
+
+  <!-- rocket group (centered) -->
+  <g id="rocket" transform="translate(400,230)">
+    <!-- shadow -->
+    <ellipse cx="0" cy="32" rx="26" ry="8" fill="#000" opacity="0.15">
+      <animate attributeName="rx" values="24;36;24" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.12;0.22;0.12" dur="1.8s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- body -->
+    <g id="body">
+      <rect x="-18" y="-56" width="36" height="72" rx="8" fill="#ffffff" stroke="#c9c9c9" stroke-width="1" />
+      <ellipse cx="0" cy="16" rx="22" ry="8" fill="#e6e6e6" opacity="0.9"/>
+      <circle cx="0" cy="-24" r="8" fill="#0d1117" />
+      <rect x="-30" y="-20" width="8" height="26" rx="2" fill="#d9d9d9"/>
+      <rect x="22" y="-20" width="8" height="26" rx="2" fill="#d9d9d9"/>
+    </g>
+
+    <!-- animate lift: smooth ease-up then hover -->
+    <animateTransform xlink:href="#rocket" attributeName="transform" type="translate"
+      values="400,230; 400,110; 400,75; 400,50" keyTimes="0;0.45;0.75;1" dur="6s" repeatCount="indefinite" />
+    <animateTransform xlink:href="#rocket" attributeName="transform" additive="sum" type="translate"
+      values="0,0; 0,4; 0,0" dur="1.2s" repeatCount="indefinite"/>
+
+    <!-- flame -->
+    <g id="flames" transform="translate(0,40)">
+      <path d="M0,0 C8,8 14,22 0,36 C-14,22 -8,8 0,0 Z" fill="#ff7b00" opacity="0.95">
+        <animate attributeName="d" dur="0.45s" repeatCount="indefinite"
+          values="M0,0 C8,8 14,22 0,36 C-14,22 -8,8 0,0 Z; M0,0 C10,10 18,28 0,40 C-18,28 -10,10 0,0 Z; M0,0 C6,6 10,18 0,28 C-10,18 -6,6 0,0 Z" />
+        <animate attributeName="opacity" values="0.95;0.6;0.95" dur="0.45s" repeatCount="indefinite"/>
+      </path>
+      <path d="M0,10 C4,14 8,20 0,24 C-8,20 -4,14 0,10 Z" fill="#ffd966" opacity="0.9">
+        <animate attributeName="d" dur="0.35s" repeatCount="indefinite"
+          values="M0,10 C4,14 8,20 0,24 C-8,20 -4,14 0,10 Z; M0,12 C5,16 9,24 0,28 C-9,24 -5,16 0,12 Z; M0,10 C3,12 6,18 0,22 C-6,18 -3,12 0,10 Z" />
+      </path>
+    </g>
+  </g>
+
+  <!-- subtle labels -->
+  <g fill="#c9d1d9" font-family="Inter, Arial, sans-serif" font-size="14" opacity="0.9">
+    <text x="28" y="322">Modracx — Practical software for real workflows</text>
+  </g>
+
+</svg>
