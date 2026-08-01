@@ -8,7 +8,7 @@ I build database tools, inventory workflows, dashboards, and browser-based utili
 
 <br/>
 
-<a href="https://modracx.dpdns.org/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=githubpages&logoColor=c8860a&labelColor=0d1117"/></a>
+<a href="https://modracx.com/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=githubpages&logoColor=c8860a&labelColor=0d1117"/></a>
 <a href="https://linkedin.com/in/kenneth-dsilva-kd"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=c8860a&labelColor=0d1117"/></a>
 <a href="https://github.com/Modracx"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=c8860a&labelColor=0d1117"/></a>
 
@@ -140,7 +140,7 @@ I build database tools, inventory workflows, dashboards, and browser-based utili
 ## Contact
 
 <div align="center">
-  <a href="https://modracx.dpdns.org/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-Visit%20site-0d1117?style=for-the-badge&logo=githubpages&logoColor=c8860a&labelColor=0d1117"/></a>
+  <a href="https://modracx.com/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-Visit%20site-0d1117?style=for-the-badge&logo=githubpages&logoColor=c8860a&labelColor=0d1117"/></a>
   <a href="https://linkedin.com/in/kenneth-dsilva-kd"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Message%20me-0d1117?style=for-the-badge&logo=linkedin&logoColor=c8860a&labelColor=0d1117"/></a>
   <a href="https://github.com/Modracx"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-Explore%20projects-0d1117?style=for-the-badge&logo=github&logoColor=c8860a&labelColor=0d1117"/></a>
 </div>
